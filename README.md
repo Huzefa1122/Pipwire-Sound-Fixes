@@ -71,3 +71,10 @@ Sources:
 Answer from username V1del
 
 [Archwiki](https://bbs.archlinux.org/viewtopic.php?id=301041)
+
+
+# Pipewire Sound Powersaving static noice issue
+add this to config 
+```
+suspend-timeout = -1
+```
